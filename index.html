@@ -1,0 +1,13 @@
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript" src="bower_components/angular/angular.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+</head>
+<body ng-app="ngFun">
+	<div ng-controller="PokemonCtrl">
+		<h1>{{ catchphrase.toUpperCase(); }}</h1>
+    <pre>{{ pokemon | json : spacing }}</pre>
+	</div>
+</body>
+</html>
